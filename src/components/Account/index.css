@@ -1,0 +1,64 @@
+.account-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #181818;
+}
+.account-information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 5%;
+}
+.account-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+.acc-details {
+  display: flex;
+}
+.details-para {
+  color: #94a3b8;
+}
+.user-password {
+  margin-left: 25px;
+}
+.line {
+  width: 100%;
+  background-color: #94a3b8;
+}
+.ultra-hd {
+  border: 1px solid #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+}
+.acc-plan {
+  display: flex;
+  margin-left: 25px;
+}
+.para-ultra {
+  border: 1px solid #181818;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.logout-btn {
+  align-self: center;
+  margin-top: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #e50914;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}

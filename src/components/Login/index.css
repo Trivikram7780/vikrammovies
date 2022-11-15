@@ -1,0 +1,123 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+      116.64deg,
+      rgba(0, 0, 0, 0.7) 0.46%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('https://res.cloudinary.com/dmafozp8x/image/upload/v1668079084/netfilx_11_t3frhw.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.login-header-section {
+  padding-left: 45px;
+}
+.login-bg-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+}
+.login-form-container {
+  color: white;
+  position: absolute;
+  width: 456px;
+  height: 440px;
+  background: #0c0b10;
+  opacity: 0.8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.login-head {
+  font-size: x-large;
+  font-weight: 500;
+  align-self: center;
+  line-height: 0px;
+}
+.username-container {
+  background-color: #333333;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  border-radius: 3px;
+  height: 40px;
+}
+.label-name {
+  font-size: small;
+}
+.username-input {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 0px;
+}
+.label-password {
+  margin-top: 35px;
+  font-size: small;
+}
+.login-btn {
+  background-color: #e50914;
+  color: white;
+  border: 0px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+.error-msg {
+  color: #e50914;
+  font-size: small;
+  line-height: 0px;
+  margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+  .login-page-container {
+    background: black;
+  }
+  .login-form-container {
+    background: none;
+    margin-left: 35px;
+  }
+  .username-container {
+    width: 85vw;
+  }
+  .login-btn {
+    width: 85vw;
+  }
+  .movie-logo {
+    align-self: center;
+    height: 35px;
+  }
+  .login-header-section {
+    padding-left: 0px;
+  }
+  .login-bg-form-container {
+    align-items: center;
+    width: 100%;
+    margin-left: 25px;
+  }
+  .login-head {
+    align-self: flex-start;
+    font-size: xx-large;
+    margin-bottom: 35px;
+  }
+}

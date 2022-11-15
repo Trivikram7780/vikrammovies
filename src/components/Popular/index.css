@@ -1,0 +1,42 @@
+.popular-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  height: 100vh;
+  overflow: auto;
+  color: white;
+  align-items: center;
+}
+.popular-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.loading-failed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #ffffff;
+}
+.popular-try-again {
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.popular-movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 75vw;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5%;
+}

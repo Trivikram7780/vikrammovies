@@ -1,0 +1,8 @@
+.search-req-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7a7b7d;
+  border: 0px;
+}
